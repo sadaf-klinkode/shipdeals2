@@ -1,0 +1,78 @@
+query RunInput($productTags: [String!] = [], $selectedCollectionIds: [ID!], $customerTags: [String!] = []) {
+  cart {
+    cost {
+      subtotalAmount {
+        amount
+      }
+      totalAmount {
+        amount
+        # currencyCode
+      }
+    }
+    lines {
+      quantity
+      cost {
+        amountPerQuantity {
+          amount
+        }
+      }
+      merchandise {
+        ... on ProductVariant {
+          id
+          product {
+            id
+            hasTags(tags: $productTags){
+              hasTag
+              tag
+            }
+            
+            inCollections(ids: $selectedCollectionIds) {
+              collectionId
+              isMember
+            }
+          }
+        }
+      }
+    }
+    deliveryGroups {
+      id
+      deliveryOptions {
+        title
+        cost {
+          amount
+        }
+      }
+      deliveryAddress {
+        countryCode
+        provinceCode
+        city
+        address1
+        address2
+        zip
+        market {
+          id
+        }
+      }
+    }
+    buyerIdentity {
+      customer {
+        hasTags(tags: $customerTags){
+          hasTag
+          tag
+        }
+      }
+    }
+  }
+  shop{
+    localTime {
+      date
+    }
+  }
+  presentmentCurrencyRate
+  discountNode {
+    metafield(namespace: "$app:shipping-discount", key: "function-configuration") {
+      value
+    }
+  }
+  
+}

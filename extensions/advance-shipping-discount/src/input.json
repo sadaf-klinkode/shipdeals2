@@ -1,0 +1,149 @@
+{
+  "cart": {
+    "cost": {
+      "subtotalAmount": {
+        "amount": "2152240.07"
+      },
+      "totalAmount": {
+        "amount": "2154840.07",
+        "currencyCode": "BDT"
+      }
+    },
+    "lines": [
+      {
+        "cost": {
+          "amountPerQuantity": {
+            "amount": "117800.0"
+          }
+        },
+        "quantity": 1,
+        "merchandise": {
+          "id": "gid://shopify/ProductVariant/47674700333302",
+          "weight": 1,
+          "sku": "sku-untracked-1",
+          "product": {
+            "id": "gid://shopify/Product/8945048518902",
+            "hasTags": [],
+            "inCollections": []
+          }
+        }
+      }
+    ],
+    "deliveryGroups": [
+      {
+        "id": "gid://shopify/CartDeliveryGroup/0",
+        "deliveryOptions": [
+          {
+            "title": "Standard",
+            "cost": {
+              "amount": "0.0"
+            }
+          },
+          {
+            "title": "Express Shipping",
+            "cost": {
+              "amount": "1300.0"
+            }
+          }
+        ],
+        "deliveryAddress": {
+          "provinceCode": null,
+          "zip": null,
+          "city": "",
+          "address1": null,
+          "address2": null
+        },
+        "selectedDeliveryOption": {
+          "deliveryMethodType": "SHIPPING",
+          "title": "Express Shipping"
+        }
+      },
+      {
+        "id": "gid://shopify/CartDeliveryGroup/1",
+        "deliveryOptions": [
+          {
+            "title": "Shipping",
+            "cost": {
+              "amount": "0.0"
+            }
+          }
+        ],
+        "deliveryAddress": null,
+        "selectedDeliveryOption": {
+          "deliveryMethodType": "NONE",
+          "title": "Shipping"
+        }
+      },
+      {
+        "id": "gid://shopify/CartDeliveryGroup/2",
+        "deliveryOptions": [
+          {
+            "title": "Standard",
+            "cost": {
+              "amount": "0.0"
+            }
+          },
+          {
+            "title": "Express Shipping",
+            "cost": {
+              "amount": "1300.0"
+            }
+          }
+        ],
+        "deliveryAddress": {
+          "provinceCode": null,
+          "zip": null,
+          "city": "",
+          "address1": null,
+          "address2": null
+        },
+        "selectedDeliveryOption": {
+          "deliveryMethodType": "SHIPPING",
+          "title": "Express Shipping"
+        }
+      },
+      {
+        "id": "gid://shopify/CartDeliveryGroup/3",
+        "deliveryOptions": [
+          {
+            "title": "Standard",
+            "cost": {
+              "amount": "0.0"
+            }
+          },
+          {
+            "title": "Express Shipping",
+            "cost": {
+              "amount": "1300.0"
+            }
+          }
+        ],
+        "deliveryAddress": {
+          "provinceCode": null,
+          "zip": null,
+          "city": "",
+          "address1": null,
+          "address2": null
+        },
+        "selectedDeliveryOption": {
+          "deliveryMethodType": "SHIPPING",
+          "title": "Standard"
+        }
+      }
+    ],
+    "buyerIdentity": {
+      "customer": {
+        "amountSpent": {
+          "amount": "0.0"
+        }
+      },
+      "purchasingCompany": null
+    }
+  },
+  "presentmentCurrencyRate": "124.0065",
+  "discountNode": {
+    "metafield": {
+      "value": "{\"ruleData\":{\"routeId\":\"advanced-discount\",\"metaFieldId\":\"gid://shopify/Metafield/30852015685878\",\"discountName\":\"demo5\",\"discountType\":\"automaticDiscount\",\"discountCode\":null,\"shopTimeZone\":\"America/New_York\",\"timeZoneFormat\":\"EST\",\"shippingMethods\":{\"label\":\"All shipping methods\"},\"discountUses\":{\"numberOfTime\":null,\"oneUse\":false},\"combinations\":{\"productDiscounts\":false,\"orderDiscounts\":false},\"activeDate\":{\"startDate\":\"2025-02-01\",\"startTime\":\"00:00\"},\"discountMessage\":\"demo6\",\"conditions\":[{\"specificItemsWeight\":[{\"action\":\"Less than\",\"value\":\"5\"}],\"sku\":[{\"action\":\"If found\",\"items\":[\"sku-untracked-1\"]}]}],\"discount_type\":\"percentage\",\"discountAmount\":\"50\"},\"productTags\":[],\"selectedCollectionIds\":[],\"customerTags\":[]}"
+    }
+  }
+}
