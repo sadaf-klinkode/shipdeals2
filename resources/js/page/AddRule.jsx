@@ -419,7 +419,7 @@ const AddRule = () => {
 
 
                             <Button onClick={AddOrCondition} icon={PlusIcon}>
-                                Add Or condition
+                                Add Or condition change
                             </Button>
 
                             {
